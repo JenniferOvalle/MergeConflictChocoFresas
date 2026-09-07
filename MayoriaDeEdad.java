@@ -5,7 +5,7 @@ import java.time.Period;
 public class MayoriaDeEdad {
   public static void main(String[] args) throws Exception{ 
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in)); 
-    System.out.print("Ingrese la fecha en que nació ");
+    System.out.print("Ingrese la fecha en que nació_ ");
     int day = Integer.parseInt(reader.readLine());
     System.out.print("Ingrese mes de nacimiento (1-12): ");
     int mes = Integer.parseInt(reader.readLine());
