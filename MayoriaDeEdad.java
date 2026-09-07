@@ -5,13 +5,13 @@ import java.time.Period;
 public class MayoriaDeEdad {
   public static void main(String[] args) throws Exception{ 
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in)); 
-    System.out.print("Ingrese día de nacimiento: ");
-    int dia = Integer.parseInt(reader.readLine());
+    System.out.print("Ingrese día de nacimiento: :D");
+    int day_ = Integer.parseInt(reader.readLine());
     System.out.print("Ingrese mes de nacimiento (1-12): ");
     int mes = Integer.parseInt(reader.readLine());
     System.out.print("Ingrese año de nacimiento: ");
     int año = Integer.parseInt(reader.readLine());
-    LocalDate fecha = LocalDate.of(año,mes,dia);
+    LocalDate fecha = LocalDate.of(año,mes,day_);
     LocalDate hoy = LocalDate.now();
     
     if (fecha.isAfter(hoy) == true) {
